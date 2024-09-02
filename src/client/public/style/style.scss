@@ -1,0 +1,64 @@
+@import "https://stackpath.bootstrapcdn.com/bootstrap/5.3.1/css/bootstrap.min.css";
+
+body {
+    margin: 0;
+    padding: 0;
+    height : 100vh;
+    background: linear-gradient(
+    to bottom,
+    #87CEFA,
+    #B0E0E6  
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.site-title {
+  margin: 0;
+  color: #ffffff; 
+}
+
+
+#form_row {
+  margin-top: 2rem;
+}
+
+.form-control {
+  border-radius: 0.25rem;
+}
+
+.alert {
+  border-radius: 0.25rem;
+}
+
+.flight_data {
+  background-color: #ffffff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: none; 
+}
+
+.flight_data h2 {
+  margin: 0 0 1rem;
+  color: #007bff;
+}
+
+.cityPic img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.25rem;
+}
+
+// Button styling
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
